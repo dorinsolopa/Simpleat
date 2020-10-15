@@ -1,0 +1,24 @@
+.text-center {
+  text-align: center;
+}
+.bg-buttton {
+  background-color: #78bc61;
+  color: white;
+  outline: 0px;
+  border-radius: 15px;
+  border: none;
+}
+
+.big-checkbox {
+  height: 25px;
+  width: 25px;
+}
+
+.margin {
+  margin-top: 50px;
+}
+.subscribing {
+  border: none;
+  outline: 0;
+  background-color: white;
+}

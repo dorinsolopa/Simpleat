@@ -1,0 +1,26 @@
+.a:hover {
+  color: #3dbeb5;
+}
+
+.a {
+  cursor: pointer;
+}
+
+.imgNutrient {
+  opacity: 0.2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 40%;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
