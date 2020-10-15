@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../card/Card";
-import Nutrients from "./Nutrients";
+import TableNutrients from "./TableNutrients";
 import { nutrientsData, nutriensTabs } from "../info/Info";
 import Tabs from "./Tabs";
 import ImgNutrients from "./ImgNutrients";
@@ -39,7 +39,7 @@ class SuperFood extends React.Component {
              <ImgNutrients/>
               </div>
               <div>
-                <Nutrients
+                <TableNutrients
                   nutrients={nutrientsData[this.state.activeTab.key]}
                 />
               </div>

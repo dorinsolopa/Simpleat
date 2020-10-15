@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nutrients = (props) => {
+const TableNutrients = (props) => {
   const { nutrients } = props;
   return (
     <table class="table">
@@ -26,4 +26,4 @@ const Nutrients = (props) => {
   
   );
 };
-export default Nutrients;
+export default TableNutrients;
