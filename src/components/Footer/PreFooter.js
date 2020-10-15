@@ -2,7 +2,7 @@ import React from "react";
 import "./PreFooter.css";
 const PreFooter = (props) => {
   return (
-    <div className="bgPre pb-5 pt-5">
+    <div className="bgPre pb-5 pt-5 hidden-sm">
       <div className="d-flex justify-content-center">
         <div>
           <a href="https://www.facebook.com/" target="_blank">

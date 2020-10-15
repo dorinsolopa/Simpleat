@@ -13,13 +13,13 @@ class Navbar extends React.Component {
   };
   render() {
     return (
-      <div className="nav p-1">
+      <div className="nav p-2">
         <div>
           <i className="fas fa-shopping-cart">Cart</i>{" "}
         </div>
         Contact
-        <div>
-          <img src={require("../../assets/Logodsa.png")} />
+        <div className="hidden-xs-down">
+          <img  src={require("../../assets/Logodsa.png")} />
         </div>
         <div>
           <i className="far fa-user">Sign In</i>

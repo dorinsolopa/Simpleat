@@ -4,7 +4,7 @@ import Logo from "../card/Logo";
 class InfoChart extends React.Component {
   render() {
     return (
-      <div className="pb-5 pt-4 ">
+      <div className="pb-5 pt-4 hidden-sm ">
         <div>
           <h1>LOW GLYCEMIC AND INSULIN INDEX</h1>
           <Logo />
@@ -17,7 +17,7 @@ class InfoChart extends React.Component {
           </p>
         </div>
         <div className="pb-5">
-          <img src={require("../../assets/Vector Smart Object.png")} />
+          <img  src={require("../../assets/Vector Smart Object.png")} />
         </div>
       </div>
     );

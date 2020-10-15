@@ -1,11 +1,8 @@
 .bg_green {
   background-color: #78bc61;
-
 }
-.container {
+.containerr {
   position: relative;
-
-
 }
 .centered {
   position: absolute;
@@ -13,3 +10,4 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+

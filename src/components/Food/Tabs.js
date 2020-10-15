@@ -16,7 +16,7 @@ class Tabs extends React.Component {
   render() {
     const { tabs = [] } = this.props;
     return (
-      <div className="  d-flex justify-content-around pb-4">
+      <div className="  d-flex justify-content-around pb-4 ">
         {tabs.map((tab, index) => {
           return (
             <a className="a" onClick={() => this.onChangeTab(index, tab)}>{tab.label}</a>

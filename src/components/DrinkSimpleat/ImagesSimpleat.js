@@ -3,7 +3,7 @@ import "./DrinkSimpleat.css";
 const ImagesSimpleat = (props) => {
   return (
     <div className="margin pt-5 pb-5">
-      <img src={require("../../assets/Bottles.png")} />
+      <img style={{width:"auto"}} src={require("../../assets/Bottles.png")} />
     </div>
   );
 };

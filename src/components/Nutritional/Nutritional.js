@@ -15,13 +15,13 @@ class Nutritional extends React.Component {
         </div>
 
         <div className="row">
-          <div className="col-4">
+          <div className="col-sm-12 col-md-4">
             <First />
           </div>
-          <div className="col-4">
+          <div className=" col-sm-12 col-md-4">
             <ImgNutrition />
           </div>
-          <div className="col-4">
+          <div className="col-sm-12 col-md-4">
             <Second />
           </div>
         </div>

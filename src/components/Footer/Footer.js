@@ -2,7 +2,7 @@ import React from "react";
 import "./PreFooter.css";
 const Footer = (props) => {
   return (
-    <div className="bgFt pl-5 pt-3 d-flex bd-highlight">
+    <div className="bgFt pl-5 pt-3 d-flex bd-highlight hidden-sm">
       <div className="p-2 w-100 bd-highlight">
         <div class="d-flex justify-content-start">
           <div className="pr-4">

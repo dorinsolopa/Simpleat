@@ -21,7 +21,7 @@ class SuperFood extends React.Component {
   render() {
     return (
       <Card>
-        <div className="pt-5">
+        <div className="pt-5 hidden-sm">
           <h1>SIMPLEAT -- SUPER FOOD</h1>
           <Logo />
           <p>

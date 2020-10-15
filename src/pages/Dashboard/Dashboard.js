@@ -17,7 +17,7 @@ class Dashboard extends React.Component {
     return (
       <div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-xs-12 col-sm-12 col-12">
             <Navbar />
           </div>
         </div>
@@ -33,47 +33,48 @@ class Dashboard extends React.Component {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className=" col-sm-12 col-12">
             <BenefitsSimpleat info={info} />
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12 col-12">
             <Testimonial testimonial={testimonial} />
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12 col-md-12 col-12">
             <Ingredients ingredients={ingredients} />
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12 col-md-12 col-12">
             <Nutritional />
           </div>
         </div>
         <div className="d-flex justify-content-center">
-          <div className="col-9 ">
+          <div className=" col-sm-9 col-9 ">
             <InfoChart />
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12  col-md-12 col-12">
             <SuperFood />
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12 col-md-12 col-12">
             <JoinUs />
           </div>
         </div>
+
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12 col-md-12 col-12">
             <PreFooter />
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-sm-12 col-md-12 col-12">
             <Footer />
           </div>
         </div>

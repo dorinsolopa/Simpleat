@@ -7,10 +7,10 @@ class Simpleat extends React.Component {
     return (
       <div className="bg">
         <div className="row">
-          <div className="col-4">
+          <div className="col-sm-4 col-4">
             <InfoSimpleat />
           </div>
-          <div className="col-8">
+          <div className=" col-sm-8 col-md-8">
             <VideoSimpleat />
           </div>
         </div>

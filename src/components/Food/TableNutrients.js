@@ -3,7 +3,7 @@ import React from "react";
 const TableNutrients = (props) => {
   const { nutrients } = props;
   return (
-    <table class="table">
+    <table className="table">
       <thead>
         <tr>
           <th scope="col"></th>

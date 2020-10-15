@@ -15,7 +15,7 @@ class DrinkSimpleat extends React.Component {
       </Popover>
     );
     return (
-      <div className=" margin pt-5 pb-5">
+      <div className=" margin pt-5 pb-5 hidden-sm">
         <h1>MORE THAN FOOD</h1>
         <Logo />
         <p className="text-center">

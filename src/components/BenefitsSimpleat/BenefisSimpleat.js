@@ -12,13 +12,13 @@ class BenefitsSimpleat extends React.Component {
           <p>Enjoy all the benefits of Simpleat</p>
         </div>
 
-        <div className="row m-5">
+        <div className="row m-5 ">
           {info.map((item) => {
             return (
-              <div className="col-2">
-                <img className="container pb-4" src={item.img} />
+              <div className="col-2 ">
+                <img className="containerr pb-4" src={item.img} />
                 {/* <div className="centered">{item.image}</div> */}
-                <h5>{item.bold}</h5>
+                <h5 className="h5">{item.bold}</h5>
                 <p>{item.text}</p>
               </div>
             );

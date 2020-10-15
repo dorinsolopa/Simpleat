@@ -2,10 +2,9 @@
   background-color: #f0f6f4;
   display: flex;
   justify-content: space-around;
-  position: fixed;
   align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
- 
+  z-index: 1;
 }
